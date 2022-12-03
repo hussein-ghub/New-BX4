@@ -1,0 +1,45 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+img {
+  width: 100%;
+}
+.text {
+  position: absolute;
+
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -50%);
+
+  font-size: 17vh;
+  line-height: 100px;
+
+  text-align: center;
+  font-family: lulo-clean-w01-one-bold lulo-clean-w05-one-bold sans-serif;
+
+  color: #dbdbdb;
+}
+.img1 {
+  border-top: 13px solid #00973a;
+}
+
+@media only screen and (max-width: 1024px) {
+  .text {
+    padding-top: 60px;
+    font-size: 10vh;
+
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    line-height: 100px;
+
+    text-align: center;
+    font-family: lulo-clean-w01-one-bold lulo-clean-w05-one-bold sans-serif;
+
+    color: #dbdbdb;
+  }
+}

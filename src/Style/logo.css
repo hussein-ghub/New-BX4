@@ -1,0 +1,22 @@
+.disc {
+  width: 65px;
+  height: 65px;
+  background: #dbdbdb;
+  position: absolute;
+
+  border-radius: 50%;
+}
+
+h4 {
+  color: #252525;
+  text-align: center;
+  padding-left: 12px;
+}
+h6 {
+  color: #252525;
+}
+.logo .container h6 {
+  font-size: 24px;
+  padding-left: 40px;
+  margin-left: 30px;
+}

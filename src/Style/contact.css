@@ -1,0 +1,67 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.container-fluid img {
+  width: 100%;
+}
+.container-fluid .span {
+  text-align: center;
+  justify-content: center;
+}
+
+.contac input {
+  width: 100%;
+
+  border: none;
+}
+input:hover {
+  background-color: #00973a;
+  opacity: 0.5;
+}
+input:focus {
+  outline: none !important;
+  border-color: rgb(255, 0, 0);
+  box-shadow: 0 0 2px rgb(255, 0, 0);
+}
+
+::placeholder {
+  color: #252525;
+  opacity: 3;
+  padding-left: 2%;
+}
+
+.subbtn {
+  background-color: #00973a;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+.subbtn {
+  width: 100%;
+}
+@media only screen and (min-width: 1024px) {
+  .message {
+    width: 980px;
+    height: 201px;
+  }
+  .subbtn {
+    width: 980px;
+    height: 41px;
+    background-color: #00973a;
+  }
+  .para {
+    font-family: lulo-clean-w01-one-bold sans-serif;
+
+    font-size: 2vw;
+    font-weight: 400;
+    line-height: 30px;
+    color: RGB(37, 37, 37);
+  }
+  .contac form {
+    justify-content: center;
+    width: 980px;
+    height: 478.33;
+  }
+}

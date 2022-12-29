@@ -1,14 +1,24 @@
 import React from "react";
 // import "../Style/about.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function Services() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
-    <div className="Services container-fluid">
+    <div
+      data-aos="fade-right"
+      className="bgcolor marTop Services container-fluid"
+    >
       <center>
         <h2
+          className="indu-title"
           style={{
             " font-size": "55px",
-            color: "#D8D8D8",
+            color: "#000000",
             "letter-spacing": "0.06em",
           }}
         >
@@ -32,7 +42,7 @@ function Services() {
               <span>ASSESSMENT</span>
             </h3>
             <a href="/">
-              <span>Read More</span>
+              <span style={{ color: "#FEFFFE" }}>Read More</span>
             </a>
           </div>
           <div
@@ -49,7 +59,7 @@ function Services() {
               <span>DESIGN</span>
             </h3>
             <a href="/">
-              <span>Read More</span>
+              <span style={{ color: "#FEFFFE" }}>Read More</span>
             </a>
           </div>
           <div
@@ -64,7 +74,7 @@ function Services() {
               <span>SERVICES</span>
             </h3>
             <a href="/">
-              <span>Read More</span>
+              <span style={{ color: "#000" }}>Read More</span>
             </a>
           </div>
           <div
@@ -89,7 +99,7 @@ function Services() {
               <span>(BIM)</span>
             </h3>
             <a href="/">
-              <span>Read More</span>
+              <span style={{ color: "#FEFFFE" }}>Read More</span>
             </a>
           </div>
         </div>

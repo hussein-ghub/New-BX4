@@ -3,18 +3,18 @@ import React from "react";
 
 function About() {
   return (
-    <div className="container-fluid">
+    <div className="contain marTop">
       <center>
         <body>
           <div>
             <div id="aboutOV" class="aboutpeg">
-              <h1>
-                <span style={{ color: "#D8D8D8" }}>OUR</span>
+              <h1 className="">
+                <span style={{ color: "#000000" }}>OUR</span>
               </h1>
               <h1>
-                <span style={{ color: "#D8D8D8" }}>VISION</span>
+                <span style={{ color: "#000000" }}>VISION</span>
               </h1>
-              <div className="paragraph" style={{ width: "547.69px" }}>
+              <div className="paragraph">
                 <span className="psize">
                   BX4 Engineering is&nbsp;a small company that thinks{" "}
                   <span style={{ "font-weight": "bold" }}>

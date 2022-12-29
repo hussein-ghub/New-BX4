@@ -11,53 +11,64 @@ import Footer from "./Component/Footer";
 import "./Style/master.css";
 import Team from "./Component/Team";
 
+import React from "react";
+import AnimatedCursor from "react-animated-cursor";
+import ServiceBox from "./Component/ServiceBox";
+
 function App() {
   return (
     <div>
-      <Navbar />
+      <AnimatedCursor />
+      <div className="test">
+        <Navbar />
 
-      <Routes>
-        <Route
-          path="/home"
-          element={
-            <>
-              <Home />
-              <About />
-              <Services />
+        <Routes>
+          <Route
+            path="/home"
+            element={
+              <>
+                <Home />
+              </>
+            }
+          />
+          <Route
+            path="/"
+            element={
+              <>
+                <Home />
+                <About />
 
-              <Industries />
-              <Team />
-              <Leadership />
-              <Contact />
-              <Footer />
-            </>
-          }
-        />
-        <Route
-          path="/"
-          element={
-            <>
-              <Home />
-              <About />
-              <Services />
+                <ServiceBox />
+                <Services />
 
-              <Industries />
-              <Team />
-              <Leadership />
-              <Contact />
-              <Footer />
-            </>
-          }
-        />
+                <Industries />
+                <Team />
+                <Leadership />
+                <Contact />
 
-        <Route path="/home" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/Industries" element={<Industries />} />
-        <Route path="/Services" element={<Services />} />
-        <Route path="/team" element={<Team />} />
-        <Route path="/leadership" element={<Leadership />} />
-      </Routes>
+                <Footer />
+              </>
+            }
+          />
+
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/Industries" element={<Industries />} />
+          <Route
+            path="Services/engineering & Technology"
+            element={<Services />}
+          />
+          <Route
+            path="services/responsive Web Devlopment"
+            element={<ServiceBox />}
+          />
+          <Route path="services/Precise Web Design" element={<ServiceBox />} />
+          <Route path="services/ecommerce Website" element={<ServiceBox />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/leadership" element={<Leadership />} />
+        </Routes>
+      </div>
     </div>
   );
 }

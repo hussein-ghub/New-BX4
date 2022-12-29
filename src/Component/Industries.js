@@ -3,7 +3,7 @@
 
 // function Industries() {
 //   return (
-//     <div className="Industries">
+//     <div id="wraper">
 //       <h2></h2>
 //       <div class="grid-container">
 //         <div class="grid-item">1</div>
@@ -23,10 +23,16 @@
 // export default Industries;
 import React from "react";
 // import "../Style/style.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Industries = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
-    <div className="Roba">
+    <div data-aos="zoom-in-down" className="bgcolor marTop induLead">
       <p className="indu-title">INDUSTRIES</p>
 
       <div className="container nested">

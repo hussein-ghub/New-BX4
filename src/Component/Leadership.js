@@ -4,8 +4,8 @@ import B from "../images/img1.jpg";
 
 const Leader = () => {
   return (
-    <div className="">
-      <p className="Roba lead-title">LEADERSHIP</p>
+    <div className="marTop">
+      <p className="induLead lead-title scroll s6">LEADERSHIP</p>
 
       <div id="section-lead">
         <div className="left-wrapper">

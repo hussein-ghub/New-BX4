@@ -1,14 +1,21 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 function ServiceBox() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div>
-      <section id="services" class="section gray-bg">
+      <section data-aos="fade-left" id="services" class="section gray-bg">
         <div class="container">
           <div class="row justify-content-center sm-m-25px-b m-45px-b">
             <div class="col-md-12 col-lg-8">
               <div class="section-title text-center pt-4 mt-3">
-                <h2 class="dark-color pt-5 pb-4">
+                <h2 class="dark-color pt-5 mt-3 pb-4">
                   <span class="theme-color">OUR</span> SERVICES
                 </h2>
               </div>
@@ -30,7 +37,7 @@ function ServiceBox() {
                     goal, content, layouts and browser compatibility of the
                     website to be on the air.
                   </p>
-                  <a href="/">
+                  <a href="/serviceBox">
                     <span className="" style={{ color: "#FEFFFE" }}>
                       Read More
                     </span>
@@ -51,7 +58,7 @@ function ServiceBox() {
                     Extreme attention to detail is the essence of our unique
                     design concepts.
                   </p>
-                  <a href="/">
+                  <a href="/serviceBox">
                     <span style={{ color: "#FEFFFE" }}>Read More</span>
                   </a>
                 </div>
@@ -71,7 +78,7 @@ function ServiceBox() {
                     loading time, and enhansed User Visibility in Search
                     Engines, makes our design outstanding.
                   </p>
-                  <a href="/">
+                  <a href="/serviceBox">
                     <span style={{ color: "#FEFFFE" }}>Read More</span>
                   </a>
                 </div>
@@ -90,7 +97,7 @@ function ServiceBox() {
                     Interactive, easily customizable, highly modern, fast
                     loading.
                   </p>
-                  <a href="/">
+                  <a href="/serviceBox">
                     <span style={{ color: "#FEFFFE" }}>Read More</span>
                   </a>
                 </div>
@@ -107,7 +114,7 @@ function ServiceBox() {
                     Search engine opimization is a must in the essence of BX4'S
                     design and development concepts.
                   </p>
-                  <a href="/">
+                  <a href="/serviceBox">
                     <span style={{ color: "#FEFFFE" }}>Read More</span>
                   </a>
                 </div>
@@ -125,7 +132,7 @@ function ServiceBox() {
                     includes updating, and making sure that the website runs
                     smoothly as well as performs optimally.
                   </p>
-                  <a href="/">
+                  <a href="/serviceBox">
                     <span style={{ color: "#FEFFFE" }}>Read More</span>
                   </a>
                 </div>

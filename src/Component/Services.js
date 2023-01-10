@@ -27,7 +27,10 @@ function Services() {
           </span>
         </h2>
         <div class="grid-container">
-          <div className="grid-item" style={{ "background-color": "#000000" }}>
+          <div
+            className="grid-item engineering"
+            // style={{ "background-color": "#34759b" }}
+          >
             {" "}
             <h3 style={{ color: "#FEFFFE" }}>
               {" "}
@@ -46,8 +49,8 @@ function Services() {
             </a>
           </div>
           <div
-            className="grid-item  "
-            style={{ "background-color": "#605E5E" }}
+            className="grid-item engineering "
+            // style={{ "background-color": "#34759b" }}
           >
             {" "}
             <h3 style={{ color: "#0EA14E" }}>
@@ -63,23 +66,23 @@ function Services() {
             </a>
           </div>
           <div
-            className=" grid-item "
-            style={{ "background-color": "#EDEDED" }}
+            className=" grid-item engineering"
+            // style={{ "background-color": "#34759b" }}
           >
             {" "}
-            <h3 style={{ color: "#0EA14E" }}>
+            <h3 style={{ color: "#054970" }}>
               <span>CONSTRUCTION</span>
             </h3>
             <h3 style={{ color: "#0EA14E" }}>
               <span>SERVICES</span>
             </h3>
             <a href="/">
-              <span style={{ color: "#000" }}>Read More</span>
+              <span style={{ color: "#FEFFFE" }}>Read More</span>
             </a>
           </div>
           <div
-            className="grid-item  "
-            style={{ "background-color": "#0EA14E" }}
+            className="grid-item engineering "
+            // style={{ "background-color": "#34759b" }}
           >
             {" "}
             <h3 style={{ color: "#FEFFFE" }}>

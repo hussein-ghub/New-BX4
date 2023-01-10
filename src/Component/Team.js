@@ -12,10 +12,10 @@ function Team() {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div data-aos="zoom-in-up" className="bgcolor picolor marTop team marTop2">
+    <div data-aos="zoom-in-up" className="bgcolor picolor marTop team">
       <div class="container">
         <div class="row">
-          <div class="heading-title text-center">
+          <div class="heading-title text-center marTop2">
             <h3 class="text-uppercase">Our Professionals </h3>
             <p class="p-top-30 half-txt texanim">
               <span className="text-success">Meet</span>&nbsp;

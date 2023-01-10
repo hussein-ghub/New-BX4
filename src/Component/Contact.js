@@ -66,7 +66,7 @@ function Contact() {
   return (
     <div className="container-fluid marTop">
       <div
-        className="contactfont indu-title"
+        className="title indu-title"
         // style={{ "letter-spacing": "3.3px", "font-size": "4vw" }}
       >
         CONTACT US

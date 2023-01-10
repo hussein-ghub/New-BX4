@@ -32,8 +32,8 @@ const Industries = () => {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div data-aos="zoom-in-down" className="bgcolor marTop induLead">
-      <p className="indu-title">INDUSTRIES</p>
+    <div data-aos="zoom-in-down" className="marTop induLead">
+      <p className="title indu-title">INDUSTRIES</p>
 
       <div className="container nested">
         <div className="box">COMMERCIAL</div>

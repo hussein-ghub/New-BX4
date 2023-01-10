@@ -7,7 +7,7 @@ function About() {
       <center>
         <body>
           <div>
-            <div id="aboutOV" class="aboutpeg">
+            <div id="aboutOV" class="aboutpeg marTop2">
               <h1 className="">
                 <span style={{ color: "#000000" }}>OUR</span>
               </h1>

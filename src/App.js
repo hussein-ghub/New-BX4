@@ -12,13 +12,13 @@ import "./Style/master.css";
 import Team from "./Component/Team";
 
 import React from "react";
-import AnimatedCursor from "react-animated-cursor";
+// import AnimatedCursor from "react-animated-cursor";
 import ServiceBox from "./Component/ServiceBox";
 
 function App() {
   return (
     <div>
-      <AnimatedCursor />
+      {/* <AnimatedCursor /> */}
       <div className="test">
         <Navbar />
 
@@ -54,7 +54,9 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+
           <Route path="/Industries" element={<Industries />} />
+          <Route path="/ServiceBox" element={<ServiceBox />} />
           <Route
             path="Services/engineering & Technology"
             element={<Services />}

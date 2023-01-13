@@ -3,11 +3,11 @@ import React from "react";
 
 function About() {
   return (
-    <div className="contain marTop">
+    <div className="contain about-title">
       <center>
         <body>
           <div>
-            <div id="aboutOV" class="aboutpeg marTop2">
+            <div id="aboutOV" class="aboutpeg mediaPad">
               <h1 className="">
                 <span style={{ color: "#000000" }}>OUR</span>
               </h1>

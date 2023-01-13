@@ -32,8 +32,8 @@ const Industries = () => {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div data-aos="zoom-in-down" className="marTop induLead">
-      <p className="title indu-title">INDUSTRIES</p>
+    <div data-aos="zoom-in-down" className="induLead">
+      <p className="indu-title">INDUSTRIES</p>
 
       <div className="container nested">
         <div className="box">COMMERCIAL</div>
@@ -48,7 +48,12 @@ const Industries = () => {
       </div>
 
       <div>
-        <hr size="18" width="100%" color="black" />
+        <hr
+          size="10"
+          width="100%"
+          color="#054970
+        "
+        />
       </div>
     </div>
   );

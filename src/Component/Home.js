@@ -2,7 +2,7 @@ import React from "react";
 // import "./Home.css";
 // import Product from "./Product";
 // import { useEffect, useRef } from "react";
-import webp from "../images/webDesign.jpg";
+// import webp from "../images/webDesign.jpg";
 import bg from "../images/responsive.jpg";
 import bg1 from "../images/electrical.jpg";
 
@@ -14,10 +14,10 @@ import { useEffect } from "react";
 
 const Home = () => {
   const fadeImages = [
-    {
-      url: `${webp}`,
-      caption: "",
-    },
+    // {
+    //   url: `${webp}`,
+    //   caption: "",
+    // },
     {
       url: `${bg}`,
       caption: "",

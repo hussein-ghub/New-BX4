@@ -132,11 +132,11 @@ body {
   /* margin-right: 20px; */
 }
 .form-inline input {
-  width: 60px;
+  /* width: 60px; */
 }
 
 .logo {
-  width: 52%;
+  width: 35%;
 }
 :root {
   --mainColor: #29335c;
@@ -194,12 +194,40 @@ nav {
 }
 
 @media only screen and (max-width: 1024px) {
+  .mediaPad {
+    padding-top: 40px;
+  }
+  .form-inline {
+    padding-left: 5px;
+    display: flex;
+    /* margin-right: 20px; */
+  }
   .logo {
-    width: 32%;
+    width: 30%;
+  }
+  header {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 100%;
   }
   header .nav-btn {
-    visibility: visible;
-    opacity: 1;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    /* visibility: hidden;
+
+  opacity: 0; */
+    display: block;
+    font-size: 1.8rem;
   }
 
   header nav {
@@ -227,6 +255,8 @@ nav {
     position: absolute;
     top: 2rem;
     right: 2rem;
+
+    /* z-index: 1; */
   }
 
   nav a {
@@ -234,13 +264,8 @@ nav {
   }
 }
 /* about.css */
-
-.marTop {
-  padding-top: 60px;
-}
-.marTop2 {
-  padding-top: 40px;
-  /* padding-top: 80px; */
+.about-title {
+  padding-top: 100px;
 }
 .h1 {
   line-height: 1.1em;
@@ -293,7 +318,9 @@ nav {
   padding-top: 5%;
   padding-bottom: 5%;
 }
-
+.engineering {
+  background-image: linear-gradient(to right, #054970, white);
+}
 .Services .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -323,10 +350,6 @@ nav {
   /* #aboutpeg {
     text-align: center;
   } */
-  .marTop {
-    margin-top: 5px;
-    padding-top: 5px;
-  }
 
   .title-image {
     position: static;
@@ -347,10 +370,7 @@ nav {
     margin-left: 2px;
     margin-right: 2px;
   }
-  .marTop {
-    margin-top: 5px;
-    padding-top: 5px;
-  }
+
   #aboutpeg {
     text-align: center;
   }
@@ -367,16 +387,21 @@ nav {
 }
 
 /* style.css */
-.induLead body {
+/* .induLead body {
   margin: 0;
   padding: 0;
   max-width: 100%;
   background: #fafafa;
-}
+} */
 
 /* Industries Start */
+/* .indu-title {
+  padding-top: 80px;
+} */
+
 .indu-title,
-.lead-title {
+.lead-title,
+.contact-title {
   color: #000000;
   text-align: center;
   font-family: brandon-grot-w01-light;
@@ -386,9 +411,13 @@ nav {
   letter-spacing: 3.3px;
   vertical-align: baseline;
   font-style: normal;
-  margin-top: 1.5em;
+  /* margin-top: 1.5em; */
   margin-bottom: 1.5em;
+  padding-top: 100px;
 }
+/* .induLead {
+  padding-top: 50px;
+} */
 .induLead .container {
   display: flex;
   flex-direction: column;
@@ -405,7 +434,8 @@ nav {
   text-align: center;
   padding-top: 2.5em;
   padding-bottom: 2.5em;
-  border: #f2f2f2 4px solid;
+  border: #a1bccb 4px solid;
+  /* #a1bccb */
   border-width: 0.5em;
   background-color: #ffffff;
   /* margin-right: 60px; */
@@ -450,7 +480,7 @@ img {
   color: #ffffff;
   font-size: larger;
   font-weight: bold;
-  padding: 1em;
+  padding: 3em;
 }
 
 .link a:hover i {
@@ -459,15 +489,16 @@ img {
 }
 .content-details {
   text-align: center;
-  margin-bottom: 2em;
+
+  margin-bottom: 1em;
 }
 
-.borderline {
-  border-bottom: 4px solid grey;
+/* .borderline {
+  border-bottom: 4px solid rgb(160, 155, 155);
   border-style: dashed;
   width: 100%;
   margin-left: 10px;
-}
+} */
 @media all and (min-width: 990px) {
   .induLead .nested {
     display: grid;
@@ -508,13 +539,6 @@ img {
 .container-fluid img {
   width: 100%;
 }
-.contactfont {
-  margin-top: 50px;
-  text-align: center;
-  justify-content: center;
-  /* color: #000000;
-  font-size: 55px; */
-}
 
 .contac input {
   width: 100%;
@@ -543,7 +567,8 @@ img {
   justify-content: center;
 }
 .contac button:hover {
-  background-color: black;
+  background-color: #054970;
+  opacity: 0.5;
   color: white;
 }
 .subbtn {
@@ -555,10 +580,10 @@ img {
     height: 201px;
   }
   .subbtn {
-    width: 980px;
+    width: 100%;
     height: 41px;
     background-color: #054970;
-    margin-left: 80px;
+    /* margin-left: 80px; */
   }
   .para {
     font-family: lulo-clean-w01-one-bold sans-serif;
@@ -587,7 +612,7 @@ img {
 body {
   font-family: lulo-clean-w01-one-bold sans-serif;
   line-height: 1.5;
-  color: #00973a;
+  color: #054970;
   font-size: 15px;
   font-weight: 400;
   text-rendering: optimizeLegibility;
@@ -638,7 +663,7 @@ body {
   margin: 0 auto;
   display: inline-block;
   line-height: 25px;
-  color: #00973a;
+  color: #054970;
   font-size: 24px;
 }
 .text-uppercase {
@@ -665,7 +690,7 @@ body {
   right: 0;
   margin: 0;
   border: 20px solid rgba(8, 2, 43, 0.1);
-  background-color: rgb(173, 168, 206);
+  background-color: #5f9ebf;
   opacity: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -760,9 +785,7 @@ body {
   background-color: #054970;
   background-image: linear-gradient(to right, #054970, white);
 }
-.engineering {
-  background-image: linear-gradient(to right, #054970, white);
-}
+
 .feature-box-1 h6 {
   padding-top: 40px;
 }

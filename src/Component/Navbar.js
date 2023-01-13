@@ -3,7 +3,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { useRef } from "react";
 // import "../Style/navStyle.css";
 import { Link } from "react-router-dom";
-import Logo from "../images/BX4 -logos_transparent.png";
+import Logo from "../images/BX4_-1-removebg-preview-modified.png";
 import { NavDropdown } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -11,6 +11,9 @@ function Navbar() {
   const navRef = useRef();
   const showNavbar = () => {
     navRef.current.classList.toggle("responsive_nav");
+  };
+  const hideNavbar = () => {
+    navRef.current.classList.remove("responsive_nav");
   };
 
   const [show, setShow] = useState(false);
@@ -26,7 +29,7 @@ function Navbar() {
         <Link to="/">
           <img src={Logo} alt="" className="logo" />
         </Link>
-        <nav ref={navRef} className="navstart">
+        <nav ref={navRef} className="navstart" onClick={hideNavbar}>
           <Link to="home">HOME</Link>
 
           <NavDropdown
@@ -78,7 +81,7 @@ function Navbar() {
               aria-label="Search"
               style={{ width: "120px" }}
             />
-            <button class="btn btn-outline-dark" type="submit">
+            <button class="btn btn-outline-light" type="submit">
               Search
             </button>
           </form>

@@ -9,10 +9,7 @@ function Services() {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div
-      data-aos="fade-right"
-      className="bgcolor marTop Services container-fluid"
-    >
+    <div data-aos="fade-right" className="bgcolor Services container-fluid">
       <center>
         <h2
           className="indu-title"
@@ -45,7 +42,7 @@ function Services() {
               <span>ASSESSMENT</span>
             </h3>
             <a href="/">
-              <span style={{ color: "#FEFFFE" }}>Read More</span>
+              <span style={{ color: "#000" }}>Read More</span>
             </a>
           </div>
           <div
@@ -53,16 +50,16 @@ function Services() {
             // style={{ "background-color": "#34759b" }}
           >
             {" "}
-            <h3 style={{ color: "#0EA14E" }}>
+            <h3 style={{ color: "#FEFFFE" }}>
               {" "}
               <span>ELECTRICAL</span>
             </h3>
-            <h3 style={{ color: "#0EA14E" }}>
+            <h3 style={{ color: "#FEFFFE" }}>
               {" "}
               <span>DESIGN</span>
             </h3>
             <a href="/">
-              <span style={{ color: "#FEFFFE" }}>Read More</span>
+              <span style={{ color: "#000" }}>Read More</span>
             </a>
           </div>
           <div
@@ -70,14 +67,14 @@ function Services() {
             // style={{ "background-color": "#34759b" }}
           >
             {" "}
-            <h3 style={{ color: "#054970" }}>
+            <h3 style={{ color: "#FEFFFE" }}>
               <span>CONSTRUCTION</span>
             </h3>
-            <h3 style={{ color: "#0EA14E" }}>
+            <h3 style={{ color: "#FEFFFE" }}>
               <span>SERVICES</span>
             </h3>
             <a href="/">
-              <span style={{ color: "#FEFFFE" }}>Read More</span>
+              <span style={{ color: "#000" }}>Read More</span>
             </a>
           </div>
           <div
@@ -102,7 +99,7 @@ function Services() {
               <span>(BIM)</span>
             </h3>
             <a href="/">
-              <span style={{ color: "#FEFFFE" }}>Read More</span>
+              <span style={{ color: "#000" }}>Read More</span>
             </a>
           </div>
         </div>

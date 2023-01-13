@@ -15,12 +15,12 @@ function Team() {
     <div data-aos="zoom-in-up" className="bgcolor picolor marTop team">
       <div class="container">
         <div class="row">
-          <div class="heading-title text-center marTop2">
-            <h3 class="text-uppercase">Our Professionals </h3>
+          <div class="heading-title text-center ">
+            <h3 class="text-uppercase pt-5 mt-5">Our Professionals </h3>
             <p class="p-top-30 half-txt texanim">
-              <span className="text-success">Meet</span>&nbsp;
+              <span className="">Meet</span>&nbsp;
               <span>The</span>&nbsp;
-              <span className="text-success">Team</span>&nbsp;
+              <span className="">Team</span>&nbsp;
             </p>
           </div>
 

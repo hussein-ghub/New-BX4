@@ -64,13 +64,8 @@ function Contact() {
   // };
 
   return (
-    <div className="container-fluid marTop">
-      <div
-        className="title indu-title"
-        // style={{ "letter-spacing": "3.3px", "font-size": "4vw" }}
-      >
-        CONTACT US
-      </div>
+    <div className="container-fluid">
+      <div className="contact-title mediaPad">CONTACT US</div>
       <div className="container">
         <div className="para">
           FOR ANY INQUIRIES, <br />

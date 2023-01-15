@@ -20,16 +20,26 @@ const Home = () => {
     // },
     {
       url: `${bg}`,
-      caption: "",
+      caption: "WEB SOLUTIONS",
     },
     {
       url: `${bg1}`,
-      caption: "",
+      caption: "ENGINEERING & TECHNOLOGY",
     },
   ];
   useEffect(() => {
-    Aos.init({ duration: 1000 });
+    Aos.init({ duration: 200 });
   }, []);
+
+  /* <div style={{ float: "left" }} className="">
+          web solution
+        </div>
+        <div style={{ float: "right" }} className="">
+          web Devlopment
+        </div>
+        <div style={{ float: "center" }} className="">
+          Engineering
+        </div> */
 
   return (
     <div className="home__container">
@@ -40,7 +50,7 @@ const Home = () => {
               <div className="image-container">
                 <img className="slide__images" src={fadeImage.url} alt="" />
               </div>
-              <h2>{fadeImage.caption}</h2>
+              <h2 className="text">{fadeImage.caption}</h2>
             </div>
           ))}
         </Fade>

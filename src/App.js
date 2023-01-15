@@ -28,6 +28,17 @@ function App() {
             element={
               <>
                 <Home />
+                <About />
+
+                <ServiceBox />
+                <Services />
+
+                <Industries />
+                <Team />
+                <Leadership />
+                <Contact />
+
+                <Footer />
               </>
             }
           />

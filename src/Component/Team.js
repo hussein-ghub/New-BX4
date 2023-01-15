@@ -18,9 +18,9 @@ function Team() {
           <div class="heading-title text-center ">
             <h3 class="text-uppercase pt-5 mt-5">Our Professionals </h3>
             <p class="p-top-30 half-txt texanim">
-              <span className="">Meet</span>&nbsp;
+              <span style={{ color: "#054970" }}>Meet</span>&nbsp;
               <span>The</span>&nbsp;
-              <span className="">Team</span>&nbsp;
+              <span style={{ color: "#054970" }}>Team</span>&nbsp;
             </p>
           </div>
 

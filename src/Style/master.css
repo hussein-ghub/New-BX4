@@ -1,5 +1,7 @@
 /* Home css */
 
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap");
+
 body {
   overflow-x: hidden;
 }
@@ -11,6 +13,56 @@ body {
   /* object-fit: contain; */
 
   align-items: center;
+}
+.text {
+  padding-top: 40px;
+  font-size: 50px;
+
+  position: absolute;
+
+  left: 25%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+  transition-delay: 3s;
+  line-height: 100px;
+
+  /* text-align: center; */
+  text-align: left;
+  /* color: rgb(102, 128, 163); */
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+
+  background: -webkit-linear-gradient(black, rgb(55, 53, 53));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 400px;
+  /* overflow: hidden; */
+  /* object-fit: contain; */
+}
+@media only screen and (max-width: 1024px) {
+  .text {
+    padding-top: 40px;
+    font-size: 50px;
+
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition-delay: 3s;
+    line-height: 100px;
+
+    /* text-align: center; */
+    text-align: left;
+    /* color: rgb(102, 128, 163); */
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+
+    background: -webkit-linear-gradient(black, rgb(55, 53, 53));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 400px;
+  }
 }
 
 /* service2 css */
